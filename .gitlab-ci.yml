@@ -1,0 +1,7 @@
+variables:
+  DEPLOY_DISABLED: "true"
+
+include:
+  - project: 'infra/ci/templates'
+    file: '/templates/Main.gitlab-ci.yml'
+
